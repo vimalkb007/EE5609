@@ -6,7 +6,7 @@ c = [2, -1, 4]
 
 B = [0, 0, 15]
 
-"""Representing the 3 equations in the matrix fasormat
+"""Representing the 3 equations in the matrix format
 
  x + 4y + 2z = 0
 3x - 2y + 7z = 0
