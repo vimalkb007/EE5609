@@ -151,7 +151,7 @@
 In an isosceles $\triangle ABC$ with $AB$ = $AC$, D and E are points on $BC$ such that $BE = CD$. Show that $AD = AE$. 
 	\section{Solution}
 	
-	In the given  $\triangle ABC$, let $D$ and $E$ be any arbitrary points on the side $BC$ such that $\vec{BE}$ = $\vec{CD}$.
+	In the given  $\triangle ABC$, let $D$ and $E$ be any arbitrary points on the side $\vec{BC}$ such that $\vec{BE}$ = $\vec{CD}$.
 	
 	\renewcommand{\thefigure}{1}
 	\begin{figure}[!ht] \label{fig:two_triangles}
@@ -159,7 +159,7 @@ In an isosceles $\triangle ABC$ with $AB$ = $AC$, D and E are points on $BC$ suc
 		\resizebox{\columnwidth}{!}{\input{picture.tex}}
 		\caption{Isosceles Triangle with sides AB = AC}
 	\end{figure}
-	We are given that the sides $AB = AC$, and $BE = CD$. These two can be represented as
+	We are given that the sides $\vec{AB} = \vec{AC}$, and $\vec{BE} = \vec{CD}$. These two can be represented as
 	\begin{align}\label{eq:fact1}
 		\norm{B-A} = \norm{C-A}
 	\end{align}
@@ -167,71 +167,71 @@ In an isosceles $\triangle ABC$ with $AB$ = $AC$, D and E are points on $BC$ suc
 		\norm{B-E} = \norm{D-C}
 	\end{align}
 	
-	Since the given trianle is an isoceles triangle, the angles formed by $AB$ and $AC$ on $BC$ will be the same. That is
+	Since the given trianle is an isoceles triangle, the angles formed by $\vec{AB}$ and $\vec{AC}$ on $\vec{BC}$ will be the same. That is
 	\begin{align}\label{eq:fact3}
-		\angle ABC = \angle ACB = \alpha
+		\angle ABC &= \angle ACB = \alpha
 	\end{align}
-	The side $AD$ can be represented as 
+	The side $\vec{AD}$ can be represented as 
 	\begin{align}\label{eq:eq1}
-		(\vec{D-A}) = (\vec{B-A}) - (\vec{B-D})
+		(\vec{D-A}) &= (\vec{B-A}) - (\vec{B-D})
 	\end{align}
 	Squaring both the sides we get	
 	\begin{align} \label{eq:eq2}
-		\norm{D-A}^{2} = \norm{B-A}^{2} + \norm{B-D}^{2} - 2\norm{B-A}\norm{B-D}\cos\alpha
+		\norm{D-A}^{2} = \norm{B-A}^{2} + \norm{B-D}^{2} \nonumber \\ - 2\norm{B-A}\norm{B-D}\cos\alpha
 	\end{align}
-	The side $AE$ can be represented as 
+	The side $\vec{AE}$ can be represented as 
 	\begin{align}\label{eq:eq3}
-		(\vec{A-E}) = (\vec{C-A}) - (\vec{C-E})
+		(\vec{A-E}) &= (\vec{C-A}) - (\vec{C-E})
 	\end{align}
 	Squaring both the sides we get	
 	\begin{align} \label{eq:eq4}
-		\norm{A-E}^{2} = \norm{C-A}^{2} + \norm{C-E}^{2} - 2\norm{C-A}\norm{C-E}\cos\alpha
+		\norm{A-E}^{2} = \norm{C-A}^{2} + \norm{C-E}^{2} \nonumber \\  - 2\norm{C-A}\norm{C-E}\cos\alpha
 	\end{align}
 	
 	From \eqref{eq:fact2}, we can further $(\vec{E-B})$ write it as 
 	\begin{align}\label{eq:eq5}
-		(\vec{E-B}) = (\vec{D-B}) + (\vec{E-D})
+		(\vec{E-B}) &= (\vec{D-B}) + (\vec{E-D})
 	\end{align}
 	Squaring both the sides we get
 	\begin{align} \label{eq:eq6}
-		\norm{E-B}^{2} = \norm{D-B}^{2} + \norm{E-D}^{2} + 2\norm{D-B}\norm{E-D}\cos\theta
+		\norm{E-B}^{2} = \norm{D-B}^{2} + \norm{E-D}^{2} \nonumber \\ + 2\norm{D-B}\norm{E-D}\cos\theta
 	\end{align}
 	Since, both the vectors are on the same direction, the angle between them is $\theta = 0\degree$.
 	\begin{align} \label{eq:eq7}
-		\norm{E-B}^{2} = \norm{D-B}^{2} + \norm{E-D}^{2} + 2\norm{D-B}\norm{E-D}
+		\norm{E-B}^{2} &= \norm{D-B}^{2} + \norm{E-D}^{2} \nonumber \\ + 2\norm{D-B}\norm{E-D}
 	\end{align}
 	\begin{align}\label{eq:eq8}
-		\norm{E-B}^{2} = \left(\norm{D-B} + \norm{E-D}\right)^{2}
+		\norm{E-B}^{2} &= \left(\norm{D-B} + \norm{E-D}\right)^{2}
 	\end{align}
 
 	From \eqref{eq:fact2}, we can further $(\vec{C-D})$ write it as
 	\begin{align}\label{eq:eq9}
-		(\vec{C-D}) = (\vec{C-E}) + (\vec{E-D})
+		(\vec{C-D}) &= (\vec{C-E}) + (\vec{E-D})
 	\end{align}
 	Squaring both the sides we get
 	\begin{align} \label{eq:eq10}
-		\norm{C-D}^{2} = \norm{C-E}^{2} + \norm{E-D}^{2} + 2\norm{C-E}\norm{E-D}\cos\theta
+		\norm{C-D}^{2} = \norm{C-E}^{2} + \norm{E-D}^{2} \nonumber \\ + 2\norm{C-E}\norm{E-D}\cos\theta
 	\end{align}
 	Since, both the vectors are on the same direction, the angle between them is $\theta = 0\degree$.
 	\begin{align} \label{eq:eq11}
-		\norm{C-D}^{2} = \norm{C-E}^{2} + \norm{E-D}^{2} + 2\norm{C-E}\norm{E-D}
+		\norm{C-D}^{2} = \norm{C-E}^{2} + \norm{E-D}^{2} \nonumber \\ + 2\norm{C-E}\norm{E-D}
 	\end{align}
 	\begin{align}\label{eq:eq12}
-		\norm{C-D}^{2} = \left(\norm{C-E} + \norm{E-D}\right)^{2}
+		\norm{C-D}^{2} &= \left(\norm{C-E} + \norm{E-D}\right)^{2}
 	\end{align}
 
 	From equations \eqref{eq:fact2}, \eqref{eq:eq8}, \eqref{eq:eq12}, we get
 	
 	\begin{align}\label{eq:eq13}
-		\left(\norm{D-B} + \norm{E-D}\right)^{2} = \left(\norm{C-E} + \norm{E-D}\right)^{2} \nonumber \\
-		\implies \norm{D-B} + \norm{E-D} = \norm{C-E} + \norm{E-D} \nonumber \\
-		\implies \norm{D-B} = \norm{C-E}
+		\left(\norm{D-B} + \norm{E-D}\right)^{2} &= \left(\norm{C-E} + \norm{E-D}\right)^{2} \nonumber \\
+		\implies \norm{D-B} + \norm{E-D} &= \norm{C-E} + \norm{E-D} \nonumber \\
+		\implies \norm{D-B} &= \norm{C-E}
 	\end{align}
 
 	Using equations \eqref{eq:fact1}, \eqref{eq:eq13}, we apply them in the equation \eqref{eq:eq2}, \eqref{eq:eq4}. After applying it we see that the R.H.S components are getting equated to each other, then we can equate the L.H.S as well. We get 
 	\begin{align}\label{eq:eq15}
-		\norm{D-A}^{2} = \norm{A-E}^{2} \nonumber \\
-		\norm{D-A} = \norm{A-E}
+		\norm{D-A}^{2} &= \norm{A-E}^{2} \nonumber \\
+		\norm{D-A} &= \norm{A-E}
 	\end{align}
 	
 	Therefore, we can say that $AD = AE$.
