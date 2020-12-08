@@ -326,9 +326,16 @@
 		& \\
 		& For the above transformation $\phi_1$ the kernel and the range are \\
 		& \\
-		& \qquad \qquad $Ker(\phi_1) = \left\{ \myvec{0 \\ 0}\right\}$ \\
+		& \qquad \qquad $Ker(\phi_1) = \left\{ \myvec{0 \\ 0}\right\}$ \qquad $\implies nullity(\phi_1) = 0$\\
 		& \\
-		& \qquad \qquad $Range(\phi_1) = \left\{ \myvec{1 \\ 1 \\ 0}, \myvec{-1 \\ 1 \\ 1}\right\}$ \\
+		& \qquad \qquad $Range(\phi_1) = \left\{ \myvec{1 \\ 1 \\ 0}, \myvec{-1 \\ 1 \\ 1}\right\}$ \qquad $\implies rank(\phi_1) = 2$ \\
+		& \\
+		& We can verify the rank-nullity theorem here as \\
+		& \\
+		& \qquad \qquad \qquad $nullity(\phi_1) + rank(\phi_1)$ \\
+		& \qquad \qquad $\implies 0 + 2$ \\
+		& \qquad \qquad $\implies 2 = dim(\vec{R}^{2})$ \\
+		& \\
 		& \\
 		& Let $\phi_2 : \vec{R}^{3} \rightarrow \vec{R}^{3}$ defined as \\ 
 		& \qquad \qquad \qquad $\phi_2 \left\{ \myvec{x_1 \\ x_2 \\ x_3}\right\} = \myvec{x_1 - x_2 + 2x_3 \\ 2x_1 - 2x_2 + 4x_3 \\ 3x_1 - 3x_2 + 6x_3}$ \qquad \qquad \\
@@ -337,14 +344,22 @@
 		& \\
 		& For the above transformation $\phi_2$ the kernel and the range are \\
 		& \\
-		& \qquad \qquad $Ker(\phi_2) = \left\{ \myvec{1 \\ 1 \\ 0}, \myvec{-1 \\ 1 \\ 1}\right\}$ \\
+		& \qquad \qquad $Ker(\phi_2) = \left\{ \myvec{1 \\ 1 \\ 0}, \myvec{-1 \\ 1 \\ 1}\right\}$ \qquad $\implies nullity(\phi_2) = 2$\\
 		& \\
-		& \qquad \qquad $Range(\phi_2) = \left\{\myvec{1 \\ 2 \\ 3}\right\}$ \\
+		& \qquad \qquad $Range(\phi_2) = \left\{\myvec{1 \\ 2 \\ 3}\right\}$  \qquad $\implies rank(\phi_2) = 1$\\
+		& \\
+		& We can verify the rank-nullity theorem here as \\
+		& \\
+		& \qquad \qquad \qquad $nullity(\phi_2) + rank(\phi_2)$ \\
+		& \qquad \qquad $\implies 2 + 1$ \\
+		& \qquad \qquad $\implies 3 = dim(\vec{R}^{3})$ \\
+		& \\
 		& \\
 		& In the above two transformations $\phi_1$ and $\phi_2$, we can see the following \\
 		& conditions being satisfied \\
 		& \\
 		& \qquad \qquad \qquad $Ker(\phi_1) = \{0\}$, $Range(\phi_1) = Ker(\phi_2)$ \\
+		& \\
 		& \\
 		& Let $\phi_3 : \vec{R}^{3} \rightarrow \vec{R}^{2}$ defined as \\ 
 		& \qquad \qquad \qquad $\phi_3 \left\{ \myvec{x_1 \\ x_2 \\ x_3}\right\} = \myvec{x_1 + x_2 - x_3 \\ 2x_1 + \frac{1}{2}x_2 - x_3}$ \qquad \qquad \\
@@ -352,9 +367,16 @@
 		& \qquad \qquad $\implies$ $\phi_2 \left\{ \myvec{x_1 \\ x_2 \\ x_3}\right\} = \myvec{1&1&-1 \\ 2&\frac{1}{2}&-1}\myvec{x_1 \\ x_2 \\ x_3}$\\
 		& For the above transformation $\phi_3$ the kernel and the range are \\
 		& \\
-		& \qquad \qquad $Ker(\phi_3) = \left\{\myvec{1 \\ 2 \\ 3}\right\}$ \\
+		& \qquad \qquad $Ker(\phi_3) = \left\{\myvec{1 \\ 2 \\ 3}\right\}$ \qquad $\implies nullity(\phi_3) = 1$\\
 		& \\
-		& \qquad \qquad $Range(\phi_3) = \left\{\myvec{1 \\ 2}, \myvec{1 \\ \frac{1}{2}}\right\}$ \\
+		& \qquad \qquad $Range(\phi_3) = \left\{\myvec{1 \\ 2}, \myvec{1 \\ \frac{1}{2}}\right\}$ \qquad $\implies rank(\phi_3) = 2$\\
+		& \\
+		& We can verify the rank-nullity theorem here as \\
+		& \\
+		& \qquad \qquad \qquad $nullity(\phi_3) + rank(\phi_3)$ \\
+		& \qquad \qquad $\implies 1 + 2$ \\
+		& \qquad \qquad $\implies 3 = dim(\vec{R}^{3})$ \\
+		& \\
 		& \\
 		& With the above $\phi_3$ transformation we were able to satisfy the other \\
 		& conditions as well i.e.\\
