@@ -322,15 +322,18 @@
 		& Let $\phi_1 : \vec{R}^{2} \rightarrow \vec{R}^{3}$ defined as \\ Example
 		& \qquad \qquad \qquad $\phi_1 \left\{ \myvec{x_1 \\ x_2}\right\} = \myvec{x_1 - x_2 \\ x_1 + x_2 \\ x_2}$ \qquad \qquad \\
 		& \\
+		& \qquad \qquad $\implies$ $\phi_1 \left\{ \myvec{x_1 \\ x_2}\right\} = \myvec{1&-1 \\ 1&1 \\ 0&1}\myvec{x_1 \\ x_2}$\\
+		& \\
 		& For the above transformation $\phi_1$ the kernel and the range are \\
 		& \\
 		& \qquad \qquad $Ker(\phi_1) = \left\{ \myvec{0 \\ 0}\right\}$ \\
 		& \\
 		& \qquad \qquad $Range(\phi_1) = \left\{ \myvec{1 \\ 1 \\ 0}, \myvec{-1 \\ 1 \\ 1}\right\}$ \\
 		& \\
-		& \\
 		& Let $\phi_2 : \vec{R}^{3} \rightarrow \vec{R}^{3}$ defined as \\ 
 		& \qquad \qquad \qquad $\phi_2 \left\{ \myvec{x_1 \\ x_2 \\ x_3}\right\} = \myvec{x_1 - x_2 + 2x_3 \\ 2x_1 - 2x_2 + 4x_3 \\ 3x_1 - 3x_2 + 6x_3}$ \qquad \qquad \\
+		& \\
+		& \qquad \qquad $\implies$ $\phi_2 \left\{ \myvec{x_1 \\ x_2 \\ x_3}\right\} = \myvec{1&-1&2 \\ 2&-2&4 \\ 3&-3&6}\myvec{x_1 \\ x_2 \\ x_3}$\\
 		& \\
 		& For the above transformation $\phi_2$ the kernel and the range are \\
 		& \\
@@ -338,16 +341,15 @@
 		& \\
 		& \qquad \qquad $Range(\phi_2) = \left\{\myvec{1 \\ 2 \\ 3}\right\}$ \\
 		& \\
-		& \\
 		& In the above two transformations $\phi_1$ and $\phi_2$, we can see the following \\
 		& conditions being satisfied \\
 		& \\
 		& \qquad \qquad \qquad $Ker(\phi_1) = \{0\}$, $Range(\phi_1) = Ker(\phi_2)$ \\
 		& \\
-		& \\
 		& Let $\phi_3 : \vec{R}^{3} \rightarrow \vec{R}^{2}$ defined as \\ 
 		& \qquad \qquad \qquad $\phi_3 \left\{ \myvec{x_1 \\ x_2 \\ x_3}\right\} = \myvec{x_1 + x_2 - x_3 \\ 2x_1 + \frac{1}{2}x_2 - x_3}$ \qquad \qquad \\
 		& \\
+		& \qquad \qquad $\implies$ $\phi_2 \left\{ \myvec{x_1 \\ x_2 \\ x_3}\right\} = \myvec{1&1&-1 \\ 2&\frac{1}{2}&-1}\myvec{x_1 \\ x_2 \\ x_3}$\\
 		& For the above transformation $\phi_3$ the kernel and the range are \\
 		& \\
 		& \qquad \qquad $Ker(\phi_3) = \left\{\myvec{1 \\ 2 \\ 3}\right\}$ \\
@@ -358,10 +360,9 @@
 		& conditions as well i.e.\\
 		& \\
 		& \qquad \qquad \qquad  $Range(\phi_2) = Ker(\phi_3)$, $Range(\phi_3) = \vec{V_4}$\\
-		&\\
+		& \\
 		& Now, when we can check whether the derived equation statisfies or \\
 		& not. That is, \\
-		& \\
 		& \qquad \qquad \qquad $- dim(\vec{V_1}) + dim(\vec{V_2}) - dim(\vec{V_3}) + dim(\vec{V_4}) $ \\
 		& \qquad \qquad $\implies - dim(\vec{R}^{2}) + dim(\vec{R}^{3}) - dim(\vec{R}^{3}) + dim(\vec{R}^{2}) $ \\
 		& \qquad \qquad $\implies - 2 + 3 - 3 + 2  = 0$ \\
